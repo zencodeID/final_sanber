@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "957406048724",
+    "project_id": "projectsanbercode87",
+    "storage_bucket": "projectsanbercode87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957406048724:android:cf1fccbdb3273f59f62641",
+        "android_client_info": {
+          "package_name": "com.zencode.project_sanbercode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957406048724-ug6n5o12dsj8m6u68rl5f5l3r19ovq18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNEsrD73Wwkvm8eHVBpyhu0FvKhE_Rnv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957406048724-ug6n5o12dsj8m6u68rl5f5l3r19ovq18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
