@@ -15,7 +15,7 @@ class HomeView extends GetView<HomeController> {
         centerTitle: true,
         actions: [
           IconButton(
-              onPressed: () => Get.toNamed(Routes.PROFILEUSER),
+              onPressed: () => Get.toNamed(Routes.SIGNUP_PAGE),
               icon: Icon(Icons.person)),
         ],
       ),
