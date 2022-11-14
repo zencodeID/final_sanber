@@ -48,7 +48,7 @@ Widget title() {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Register for\nlistening',
+          'Register your\naccount',
           style:
               darkTextStyle.copyWith(fontSize: 24, fontWeight: FontWeight.bold),
         ),
