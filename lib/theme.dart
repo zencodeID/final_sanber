@@ -49,3 +49,5 @@ TextStyle redTextstyle = GoogleFonts.poppins(
 );
 
 double edge = 24;
+
+double defaultMargin = 30.0;

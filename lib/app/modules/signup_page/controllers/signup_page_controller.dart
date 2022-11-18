@@ -13,7 +13,7 @@ class SignupPageController extends GetxController {
   FirebaseAuth auth = FirebaseAuth.instance;
   FirebaseFirestore firestore = FirebaseFirestore.instance;
 
-  void signUpUser() async {
+  void signUpPage() async {
     if (nameC.text.isNotEmpty &&
         nipC.text.isNotEmpty &&
         emailC.text.isNotEmpty) {
@@ -28,6 +28,7 @@ class SignupPageController extends GetxController {
           await firestore.collection("akun").doc(uid).set({
             "nip": nipC.text,
             "name": nameC.text,
+            'email': emailC.text,
             "uid": uid,
             "createdAt": DateTime.now().toIso8601String(),
           });

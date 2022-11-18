@@ -166,7 +166,9 @@ Widget registerButton() {
     width: double.infinity,
     margin: EdgeInsets.only(top: 32),
     child: TextButton(
-      onPressed: () {},
+      onPressed: () {
+        controller.signUpPage();
+      },
       style: TextButton.styleFrom(
         backgroundColor: darkColor,
         shape: RoundedRectangleBorder(
